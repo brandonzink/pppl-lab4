@@ -1,0 +1,1 @@
+function (x: number, y: bool) { return !(y) ? x/2 : x/3 } (4, false)

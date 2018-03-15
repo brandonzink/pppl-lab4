@@ -1,0 +1,7 @@
+## Call(Function(None,List((x,MTyp(MConst,TNumber)), (y,MTyp(MConst,TBool))),None,If(Unary(Not,Var(y)),Binary(Div,Var(x),N(2.0)),Binary(Div,Var(x),N(3.0)))),List(N(4.0), B(false))) : number
+## step    0: Call(Function(None,List((x,MTyp(MConst,TNumber)), (y,MTyp(MConst,TBool))),None,If(Unary(Not,Var(y)),Binary(Div,Var(x),N(2.0)),Binary(Div,Var(x),N(3.0)))),List(N(4.0), B(false)))
+## step    1: If(Unary(Not,B(false)),Binary(Div,N(4.0),N(2.0)),Binary(Div,N(4.0),N(3.0)))
+## step    2: If(B(true),Binary(Div,N(4.0),N(2.0)),Binary(Div,N(4.0),N(3.0)))
+## step    3: Binary(Div,N(4.0),N(2.0))
+## value: N(2.0)
+2.0
